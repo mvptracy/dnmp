@@ -1,0 +1,56 @@
+version: "3"
+
+services:
+
+  db:
+    image: mysql:5.7
+    build: 
+      context: ./mysql
+      dockerfile: DockerFile
+    ports: 
+      - "33060:3306"
+    volumes:
+      - ./db_data/mysql:/var/lib/mysql
+      - ./log/mysql:/var/log/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD : Aa111111
+      MYSQL_DATABASE: testdb
+    restart: always
+
+  php:
+    build: 
+      context: ./php-fpm
+      dockerfile: DockerFile
+    ports:
+      - "9001:9000"
+    volumes:
+      - ./web:/www/web/
+    depends_on: 
+      - db
+    restart: always
+
+
+  nginx:
+    build: 
+      context: ./nginx
+      dockerfile: DockerFile
+    ports:
+      - "8081:80"
+    volumes:
+      - ./web:/www/web/
+      - ./log/nginx:/var/log/nginx
+    depends_on:
+      - php
+    restart: always
+
+
+  redis:
+    build: 
+      context: ./redis
+      dockerfile: DockerFile
+    ports:
+      - "63790:6379"
+    volumes:
+      - ./db_data/redis/:/var/lib/redis/
+    restart: always
+

@@ -1,0 +1,63 @@
+2019/05/20 17:28:50 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:28:53 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:28:56 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:28:58 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:29:00 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:29:03 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:29:07 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:29:15 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:29:29 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:29:55 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:30:23 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:30:25 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:30:28 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:30:30 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:30:33 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:30:36 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:30:41 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:30:48 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:34:30 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:34:32 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:34:35 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:34:38 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:34:40 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:34:43 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:34:47 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:34:54 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:35:08 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:35:35 [emerg] 1#1: open() "/var/log/nginx/log/host.access.log" failed (2: No such file or directory)
+2019/05/20 17:41:02 [error] 7#7: *2 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:41:03 [error] 7#7: *2 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:41:03 [error] 7#7: *2 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:41:04 [error] 7#7: *2 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:41:04 [error] 7#7: *2 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:41:08 [error] 7#7: *2 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:41:29 [error] 7#7: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:00 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:01 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:01 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:02 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:02 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:02 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:02 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:03 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:03 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:03 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:30 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:31 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:31 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:31 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:40 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:41 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:41 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:41 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:42 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:42:50 [error] 6#6: *2 open() "/www/web/index.html" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /index.html HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:43:57 [error] 6#6: *5 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:43:58 [error] 6#6: *5 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:47:23 [error] 6#6: *2 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:47:24 [error] 6#6: *2 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:47:25 [error] 6#6: *2 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:47:26 [error] 6#6: *2 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/20 17:47:26 [error] 6#6: *2 "/www/web/index.html" is not found (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8081"
+2019/05/21 09:53:05 [error] 6#6: *1 open() "/www/web/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8081", referrer: "http://localhost:8081/"
